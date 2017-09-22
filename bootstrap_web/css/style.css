@@ -1,0 +1,148 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial,"Microsoft YaHei UI","Microsoft Himalaya", sans-serif;
+}
+.navbar-header a.navbar-brand{
+    margin: 0;
+    padding: 8px 0;
+}
+.navbar-right{
+    margin-top: 0;
+}
+#myCarousel{
+    margin-top: 50px;
+}
+#myCarousel .carousel-inner img{
+    margin: 0 auto;
+}
+.tab-h2{
+    font-size: 20px;
+    color: #0059b2;
+    text-align: center;
+    letter-spacing:1px;
+    font-weight: 500;
+}
+.tab-p{
+    font-size: 15px;
+    color: #999;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 0 40px 0;
+}
+.tab1{
+    margin: 30px 0;
+    color: #666;
+}
+.tab1 .media-heading{
+    margin: 5px 0 5px 0;
+}
+.tab1 .text-muted{
+    color: #999;
+    text-decoration:line-through;
+}
+.tabl .row .col{
+    padding: 20px 0 0 0;
+}
+.tab2{
+    background-color: #eee;
+    padding: 40px 0;
+    text-align: center;
+}
+.tab3{
+    padding: 20px 0 40px 0;
+    text-align: center;
+}
+
+.jumbotron{
+    margin:50px 0  0 0;
+    background-color: #0f0f0f;
+    color: #cccccc;
+}
+.info{
+    background-color: #cccccc;
+}
+.info-content{
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    box-shadow: 2px 2px 2px 3px #cccccc;
+    padding-left: 0;
+}
+.info-content img{
+    margin: 12px 0;
+}
+.info-content{
+    line-height: 1.6;
+    box-shadow: 2px 2px 2px 3px #aaa;
+}
+.info-content h3{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.info-right{
+    background-color: #cccccc;
+}
+
+#footer .container-fluid{
+    text-align: center;
+    color: #666;
+    border-top: 1px solid #999;
+    background-color: #eee;
+}
+#case{
+
+    padding-top: 20px;
+    background-color: #cccccc;
+}
+#case .caption{
+    text-align: center;
+}
+#case img{
+    width: 50%;
+    height: 50%;
+}
+#about a{
+    color: #2b669a;
+}
+#weixin  img{
+    width:30%;
+    height:30%;
+    float: left;
+}
+/*bootstrap 3以移动端优先显示*/
+/*小屏幕*/
+@media( min-width: 768px) {
+    .tab-h2{
+        font-size: 26px;
+    }
+    .tab-p{
+        font-size: 16px;
+    }
+    .tab2-img{
+        float: left;
+    }
+    .tab2-text{
+        float:right;
+    }
+    #weixin  img{
+        float: right;
+    }
+
+}
+/*中等屏幕*/
+@media( min-width: 992px) {
+    .tab-h2{
+        font-size: 28px;
+    }
+    .tab-p{
+        font-size: 17px;
+    }
+}
+/*大屏幕*/
+@media( min-width: 1200px) {
+    .tab-h2{
+        font-size: 30px;
+    }
+    .tab-p{
+        font-size: 18px;
+    }
+}
